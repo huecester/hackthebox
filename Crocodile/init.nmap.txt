@@ -1,0 +1,12 @@
+# Nmap 7.93 scan initiated Sun Dec  4 23:02:10 2022 as: nmap -vv -oN init.nmap.txt 10.129.83.20
+Increasing send delay for 10.129.83.20 from 0 to 5 due to 73 out of 242 dropped probes since last increase.
+Nmap scan report for 10.129.83.20
+Host is up, received syn-ack (0.15s latency).
+Scanned at 2022-12-04 23:02:10 PST for 26s
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec  4 23:02:36 2022 -- 1 IP address (1 host up) scanned in 25.89 seconds

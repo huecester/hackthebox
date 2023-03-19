@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Sun Dec  4 22:55:14 2022 as: nmap -oN init.nmap.txt -vv 10.129.113.197
+Nmap scan report for 10.129.113.197
+Host is up, received conn-refused (0.15s latency).
+Scanned at 2022-12-04 22:55:15 PST for 24s
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE REASON
+3306/tcp open  mysql   syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec  4 22:55:39 2022 -- 1 IP address (1 host up) scanned in 24.10 seconds

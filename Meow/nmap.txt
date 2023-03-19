@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Sun Dec  4 21:54:30 2022 as: nmap -vv -oN nmap.txt 10.129.183.179
+Nmap scan report for 10.129.183.179
+Host is up, received echo-reply ttl 63 (0.15s latency).
+Scanned at 2022-12-04 21:54:30 PST for 2s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+23/tcp open  telnet  syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec  4 21:54:32 2022 -- 1 IP address (1 host up) scanned in 2.67 seconds

@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Mon Dec  5 23:56:25 2022 as: nmap -vv -oN init.nmap 10.129.95.234
+Nmap scan report for 10.129.95.234
+Host is up, received echo-reply ttl 127 (0.15s latency).
+Scanned at 2022-12-05 23:56:25 PST for 13s
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec  5 23:56:38 2022 -- 1 IP address (1 host up) scanned in 12.87 seconds
